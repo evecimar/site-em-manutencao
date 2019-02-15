@@ -5,5 +5,7 @@ A forma mais facil de utiliza-lo é utilizar o container docker evecimar/laravel
 Para utilizar-lo com evecimar/laravel-5.6, você precisará apenas criar um container passando os seguintes enviroment:
 
 git_url=https://github.com/evecimar/site-em-manutencao.git
+
 git_branch=master
+
 custom_command_url=https://s3-sa-east-1.amazonaws.com/primelan/site-em-manutencao/docker-entrypoint.sh
